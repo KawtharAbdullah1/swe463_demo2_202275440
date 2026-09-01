@@ -121,6 +121,22 @@
 // The spread operator means that if the fruitsList is not empty, its elements will be added to the allFruits list. 
 
 // Task 5.1
+class User {
+  final String username;
+  final String email;
+
+  User(this.username, this.email);
+}
+
+void main() {
+  var user = User('ali_ux', 'ali@email.com');
+  var secondUser = User('kawthar_alomran', 'kawthar@email.com');
+
+  print(user.username);
+  print(user.email);
+  print(secondUser.username);
+  print(secondUser.email);
+}
 
 // Task 5.2
 
