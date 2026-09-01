@@ -215,3 +215,17 @@
 //   duck.swim();  
 //   duck.makeSound();
 // }
+
+// Task 6.1 
+// import 'person.dart';
+
+// void main() {
+//   final person = Person('Osama', 'Ali');
+//   print(person.greet());
+
+//   // The following line causes a compile-time error because
+//   // _firstName is private to person.dart's library.
+// //   print(person._firstName);
+// }
+
+// Task 6.2
