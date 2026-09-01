@@ -121,23 +121,74 @@
 // The spread operator means that if the fruitsList is not empty, its elements will be added to the allFruits list. 
 
 // Task 5.1
-class User {
-  final String username;
-  final String email;
+// class User {
+//   final String username;
+//   final String email;
 
-  User(this.username, this.email);
-}
+//   User(this.username, this.email);
+// }
 
-void main() {
-  var user = User('ali_ux', 'ali@email.com');
-  var secondUser = User('kawthar_alomran', 'kawthar@email.com');
+// void main() {
+//   var user = User('ali_ux', 'ali@email.com');
+//   var secondUser = User('kawthar_alomran', 'kawthar@email.com');
 
-  print(user.username);
-  print(user.email);
-  print(secondUser.username);
-  print(secondUser.email);
-}
+//   print(user.username);
+//   print(user.email);
+//   print(secondUser.username);
+//   print(secondUser.email);
+// }
 
 // Task 5.2
+// abstract class Post {
+//   final String author;
+
+//   Post(this.author);
+
+//   void render();
+// }
+
+// class TextPost extends Post {
+//   final String text;
+
+//   TextPost(String author, this.text) : super(author);
+
+//   @override
+//   void render() {
+//     print('Text post by $author: "$text"');
+//   }
+// }
+
+// class ImagePost extends Post {
+//   final String imageUrl;
+
+//   ImagePost(String author, this.imageUrl) : super(author);
+
+//   @override
+//   void render() {
+//     print('Image post by $author at $imageUrl');
+//   }
+// }
+
+// class VideoPost extends Post {
+//     final String videoUrl;
+//     VideoPost(String author, this.videoUrl) : super(author);
+
+//     @override
+//     void render() {
+//     print('Video post by $author at $videoUrl');
+//   }
+
+// }
+// void main() {
+//   List<Post> feed = [
+//     TextPost('khalid', 'Flutter is amazing!'),
+//     ImagePost('omar', 'https://example.com/sunset.png'),
+//     VideoPost('kawthar', 'https://example.com/sunrise.mp4'),
+//   ];
+
+//   for (final post in feed) {
+//     post.render();
+//   }
+// }
 
 // Task 5.3
