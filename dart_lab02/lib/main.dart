@@ -93,6 +93,17 @@
 // }
 
 // Task 4.1
+// void main() {
+//   var fruitsList = ['apples', 'oranges', 'bananas', 'mango'];
+//   var grades = {'quiz1': 85, 'quiz2': 92, 'quiz3': 100};
+//   var tags = {'dart', 'flutter', 'mobile', 'flutter', 'dart'};
+
+//   print(fruitsList[1]);
+//   print(grades['quiz2']);
+//   print(tags);
+// }
+// The duplicate set item is not stored twice because a Dart Set contains only unique items. 
+
 
 // Task 4.2
 
