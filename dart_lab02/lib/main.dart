@@ -229,3 +229,10 @@
 // }
 
 // Task 6.2
+// import 'person.dart';
+
+// void main() {
+//   final person = GreetingPerson('Ali', 'Hussian');
+//   person.sayHi();
+// }
+// GreetingPerson can access _firstName and _lastName even though they start with _ because GreetingPerson is part of the same library as Person, and private members are accessible within the same library.
