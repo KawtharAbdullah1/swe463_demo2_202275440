@@ -236,3 +236,29 @@
 //   person.sayHi();
 // }
 // GreetingPerson can access _firstName and _lastName even though they start with _ because GreetingPerson is part of the same library as Person, and private members are accessible within the same library.
+
+// Task 7.1
+// class UserProfile {
+//   final String name;
+//   String? bio;
+
+//   UserProfile(this.name, {this.bio});
+
+//   String getDisplayBio() {
+//     return bio ?? 'No bio provided.';
+//   }
+// }
+
+// void main() {
+//   final user1 = UserProfile('Ahmed');
+//   final user2 = UserProfile('Layla', bio: 'Flutter Developer');
+//   final user3 = UserProfile('Kawthar');
+
+//   print(user1.getDisplayBio());
+//   print(user2.getDisplayBio());
+//   print(user3.getDisplayBio());
+// }
+
+
+
+// Task 7.2 
