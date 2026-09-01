@@ -118,7 +118,7 @@
 
 //   print(allFruits);
 // }
-// The spread operator means that if the fruitsList is not empty, its elements will be added to the allFruits list. 
+// The spread operator adds all elements of one collection to another collection. 
 
 // Task 5.1
 // class User {
