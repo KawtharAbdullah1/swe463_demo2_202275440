@@ -45,28 +45,28 @@
 // dynamic is a variable that can hold values of any type, and it can be assigned different types at runtime.
 
 // Task 3.1
-void greet(String name, String greeting) {
-  print('$greeting, $name!');
-}
+// void greet(String name, String greeting) {
+//   print('$greeting, $name!');
+// }
 
-void greetWelcome(String name, [String greeting = 'Welcome']) {
-  print('$greeting, $name!');
-}
+// void greetWelcome(String name, [String greeting = 'Welcome']) {
+//   print('$greeting, $name!');
+// }
 
-void greetAgain({required String name, String? greeting}) {
-  print('${greeting ?? 'Hi'}, $name!');
-}
+// void greetAgain({required String name, String? greeting}) {
+//   print('${greeting ?? 'Hi'}, $name!');
+// }
 
-void main() {
-  greet('Kawthar', 'Hello');
-  greetWelcome('Kawthar');
-  greetWelcome('Kawthar', 'Good morning');
-  greetAgain(name: 'Kawthar', greeting: 'Hello');
-  greetAgain(name: 'Kawthar');
-  greet("Kawthar", "Hi");
-  greetWelcome("Kawthar", "Good afternoon");
-  greetAgain(name: "Kawthar", greeting: "Good evening");
-}
+// void main() {
+//   greet('Kawthar', 'Hello');
+//   greetWelcome('Kawthar');
+//   greetWelcome('Kawthar', 'Good morning');
+//   greetAgain(name: 'Kawthar', greeting: 'Hello');
+//   greetAgain(name: 'Kawthar');
+//   greet("Kawthar", "Hi");
+//   greetWelcome("Kawthar", "Good afternoon");
+//   greetAgain(name: "Kawthar", greeting: "Good evening");
+// }
 
 // greet uses positional parameters. 
 // greetWelcome uses optional positional parameters. 
@@ -74,7 +74,23 @@ void main() {
 
 
 // Task 3.2
+// void performOperation(
+//   int a,
+//   int b,
+//   int Function(int, int) operation,
+// ) {
+//   print(operation(a, b));
+// }
 
+// int add(int a, int b) => a + b;
+// int subtract(int a, int b) => a - b;
+// int multiply(int a, int b) => a * b;
+
+// void main() {
+//   performOperation(10, 5, add);
+//   performOperation(10, 5, subtract);
+//   performOperation(10, 5, multiply);
+// }
 
 // Task 4.1
 
