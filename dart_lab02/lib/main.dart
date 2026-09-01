@@ -37,9 +37,40 @@
 //   print(anything);
 // }
 
+//1. What is the difference between final and const?
+// final is a variable that set once at runtime. 
+// const is a variable that set once at compile time.
+
+//2. Why can dynamic change from String to int?
+// dynamic is a variable that can hold values of any type, and it can be assigned different types at runtime.
 
 // Task 3.1
+void greet(String name, String greeting) {
+  print('$greeting, $name!');
+}
 
+void greetWelcome(String name, [String greeting = 'Welcome']) {
+  print('$greeting, $name!');
+}
+
+void greetAgain({required String name, String? greeting}) {
+  print('${greeting ?? 'Hi'}, $name!');
+}
+
+void main() {
+  greet('Kawthar', 'Hello');
+  greetWelcome('Kawthar');
+  greetWelcome('Kawthar', 'Good morning');
+  greetAgain(name: 'Kawthar', greeting: 'Hello');
+  greetAgain(name: 'Kawthar');
+  greet("Kawthar", "Hi");
+  greetWelcome("Kawthar", "Good afternoon");
+  greetAgain(name: "Kawthar", greeting: "Good evening");
+}
+
+// greet uses positional parameters. 
+// greetWelcome uses optional positional parameters. 
+// greetAgain uses named parameters.
 
 
 // Task 3.2
